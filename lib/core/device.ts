@@ -108,19 +108,19 @@ export enum Platform {
 export type Apk = typeof mobile
 
 const mobile = {
-	id: "com.tencent.mobileqq",
-	name: "A8.8.80.7400",
-	version: "8.8.80.7400",
-	ver: "8.8.80",
-	sign: Buffer.from([166, 183, 69, 191, 36, 162, 194, 119, 82, 119, 22, 246, 243, 110, 182, 141]),
-	buildtime: 1640921786,
-	appid: 16,
-	subid: 537143609,
-	bitmap: 184024956,
-	sigmap: 34869472,
-	sdkver: "6.0.0.2494",
-	display: "Android",
-}
+    id: "com.tencent.mobileqq",
+    name: "A8.9.15.9425",
+    version: "8.9.15.9425",
+    ver: "8.9.15",
+    sign: Buffer.from([166, 183, 69, 191, 36, 162, 194, 119, 82, 119, 22, 246, 243, 110, 182, 141]),
+    buildtime: 1640921786,
+    appid: 16,
+    subid: 537138832,
+    bitmap: 150470524,
+    sigmap: 16724722,
+    sdkver: "6.0.0.2494",
+    display: "Android",
+};
 const watch: Apk = {
 	id: "com.tencent.qqlite",
 	name: "A2.0.5",
